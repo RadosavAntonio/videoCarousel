@@ -23,8 +23,8 @@ const configuration = {
   key: 'root',
   storage: AsyncStorage,
   version: 1,
-  whitelist: ['video'], // I persist videos for performance reasons
-  blacklist: ['modal'],
+  whitelist: [], // I persist videos for performance reasons
+  blacklist: ['modal', 'video'],
 }
 const persistedReducer = persistReducer(configuration, rootReducer)
 

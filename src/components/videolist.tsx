@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { AppStore } from '../store/store'
-import { FlatList, View, StyleSheet, ActivityIndicator } from 'react-native'
+import { FlatList, StyleSheet, ActivityIndicator } from 'react-native'
 import { VideoItemBox } from './videoItemBox'
 import {
   getAdjustedHeight,

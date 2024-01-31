@@ -1,11 +1,9 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import { SafeAreaView, StyleSheet, View } from 'react-native'
 import { BackButton } from '../components/backButton'
 import { StackScreenProps } from '@react-navigation/stack'
 import { AppNavigationParams, Screen } from '../navigation/navigation'
 import { useVideoDetailsById } from '../hooks/useVideoDetailsById'
-import { VideoPlayer } from '../components/videoPlayer'
-import { Carousel } from '../components/carousel'
 import { VideoContent } from '../components/videoContent'
 
 type Props = StackScreenProps<AppNavigationParams, Screen.VIDEO_ITEM>

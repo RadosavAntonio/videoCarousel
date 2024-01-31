@@ -3,8 +3,6 @@ import {
   StyleSheet,
   ScrollView,
   View,
-  Dimensions,
-  Image,
   Animated,
   Pressable,
   Text,
@@ -12,11 +10,10 @@ import {
 import { screenWidth } from '../utils/globalUtilityFunctionsAndConstants'
 import { useDispatch, useSelector } from 'react-redux'
 import { AppStore } from '../store/store'
-import { VideoItem } from '../store/types/videos'
 import { fetchVideos } from '../store/thunk/fetchVideos'
 
 interface Props {
-  onImagePress: (id) => void
+  onImagePress: (id: number) => void
 }
 
 export const Carousel = ({ onImagePress }: Props): JSX.Element => {

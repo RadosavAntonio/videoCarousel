@@ -1,5 +1,4 @@
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
-import { AppStore } from '../store'
+import { createSlice } from '@reduxjs/toolkit'
 import { VideosData } from '../types/videos'
 
 const initialState: VideosData = {

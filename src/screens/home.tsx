@@ -1,14 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import {
-  Button,
-  Modal,
-  SafeAreaView,
-  StyleSheet,
-  View,
-  Text,
-  Pressable,
-  TouchableOpacity,
-} from 'react-native'
+import { Button, SafeAreaView, StyleSheet, View, Text } from 'react-native'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchVideos } from '../store/thunk/fetchVideos'
 import { AppStore } from '../store/store'

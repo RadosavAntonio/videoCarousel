@@ -8,7 +8,6 @@ import {
 } from 'react-native'
 import {
   getAdjustedHeight,
-  getAdjustedWidth,
   screenWidth,
 } from '../utils/globalUtilityFunctionsAndConstants'
 import { AppNavigationParams, Screen } from '../navigation/navigation'

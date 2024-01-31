@@ -1,6 +1,5 @@
 import { Dimensions, Platform } from 'react-native'
 import { isString } from 'lodash'
-import DeviceInfo from 'react-native-device-info'
 
 // Platform -------------------------------------------------------------------
 export const isIos = Platform.OS === 'ios'

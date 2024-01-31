@@ -13,7 +13,6 @@ export const useVideoDetailsById = ({ videoId }: Props): VideoItem => {
   const videoDetails = videosData.find(
     (video: VideoItem) => video.id === videoId,
   )
-  console.log('-------videoId------', videosData, videoDetails)
 
   return videoDetails
 }

@@ -1,6 +1,4 @@
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
-import { AppStore } from '../store'
-import { VideosData } from '../types/videos'
+import { createSlice } from '@reduxjs/toolkit'
 import { DisplayVideoType, ModalData } from '../types/modal'
 
 const initialState: ModalData = {
