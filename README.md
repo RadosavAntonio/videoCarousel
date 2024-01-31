@@ -3,7 +3,7 @@ Technologies Used: TypeScript | JavaScript | React Native | Redux | Redux- Persi
 
 ## The app is build using ReactNative Expo
 - Can run on iOS and Android
-- Can not run on Web because of dependencys
+- Can not run on Web because of dependencies
 
 ## Features
 - the app is using a GET paginated REST call
