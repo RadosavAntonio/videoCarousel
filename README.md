@@ -11,3 +11,7 @@ Technologies Used: TypeScript | JavaScript | React Native | Redux | Redux- Persi
 - there is a homescreen with a grid view of the videos first image
     on homescreen user can select how to see the video (on a screen or on a modal)
 - large video view with a thumbnails carousel (every item is pressable and the video will change according to the image)
+
+
+https://github.com/RadosavAntonio/videoCarousel/assets/49883507/b1b4f1da-2ab7-46b8-9a14-dd389cd2ae0d
+
