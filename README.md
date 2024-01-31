@@ -2,8 +2,8 @@
 Technologies Used: TypeScript | JavaScript | React Native | Redux | Redux- Persist | Thunk  | git | Prettier | React-Navigation | UnitTesting
 
 ## The app is build using ReactNative Expo
-Can run on iOS and Android
-Can not run on Web because of dependencys
+- Can run on iOS and Android
+- Can not run on Web because of dependencys
 
 ## Features
 - the app is using a GET paginated REST call
